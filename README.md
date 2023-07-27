@@ -2,6 +2,40 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.4.
 
+Available Scripts
+Once you clone this repo first run:
+
+npm Install
+Once installation is completed we need to start running our application for that we need to run
+
+ng serve
+It runs the app in development mode.
+Open [http://localhost:4200/]to view it in the browser.
+
+In this Application, we have components!
+
+Form -inludes input field
+File uploader
+Chart
+Grid
+
+1. Input Fields
+   To use the Input Fields first we need to Import the Components
+
+type - we need to pass the TYPE for the field in that we can specify whether it is text, email, or password filed
+Name - the name is for the label of the particular input field 2. File uploader
+To use the File uploader first we need to Import the Components
+
+we need to pass the function of the file upload to get the file data and details 3. Chart
+To use the Chart first we need to Import the Components and we need to pass the data to it
+
+type - we need to pass Chart type (whether it may be Bar chart, Line chart, Pie chart)
+Data - The Dataset will be the value for the chart.
+
+Grid
+To use the grid first we need to Import the Components and we need to pass the data to it
+
+mat-grid-list- will include the values to be displayed
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
